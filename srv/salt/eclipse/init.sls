@@ -2,8 +2,9 @@ openjdk-11-jdk:
   pkg.installed
 
 /usr/eclipse:
-  file.directory:
+  file.recurse:
     - source: salt://eclipse/eclipse
+    - dir_mode: 0755
 
 /usr/share/applications/eclipse.desktop:
   file.managed:
