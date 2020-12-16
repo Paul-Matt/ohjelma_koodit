@@ -9,6 +9,6 @@ openjdk-11-jdk:
   file.managed:
     - source: salt://eclipse/eclipse.desktop
 
-/usr/eclipse/eclipse:
+/usr/bin/eclipse:
   file.symlink:
-    - target: /usr/bin/eclipse
+    - target: /usr/eclipse/eclipse
