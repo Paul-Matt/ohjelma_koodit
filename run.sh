@@ -16,6 +16,7 @@ setxkbmap fi
 sudo timedatectl set-timezone Europe/Helsinki
 
 echo "Installing programs"
+cd ohjelma_koodit/
 sudo salt-call --local --file-root srv/salt state.highstate
 
 echo "Done."
