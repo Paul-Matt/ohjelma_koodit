@@ -10,4 +10,5 @@ paketit:
       - tmux
       - gimp
       - audacious
+      - pandoc
       - pacman4console
