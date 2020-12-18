@@ -4,7 +4,8 @@ openjdk-11-jdk:
 /usr/eclipse:
   file.recurse:
     - source: salt://eclipse/eclipse
-    - mode: 755
+    - dir_mode: 755
+    - file_mode: 755
 
 /usr/share/applications/eclipse.desktop:
   file.managed:
