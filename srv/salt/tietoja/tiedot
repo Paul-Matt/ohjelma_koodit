@@ -1,9 +1,0 @@
-#!/bin/bash
-setxkbmap fi
-timedatectl set-timezone Europe/Helsinki
-timedatectl
-whoami
-hostname
-echo 'ääkköset käytössä'
-
-
